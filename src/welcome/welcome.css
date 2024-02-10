@@ -1,0 +1,52 @@
+.container-welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100svw;
+    height: 100vh;
+    background: rgb(255, 183, 183);
+    background: linear-gradient(
+        90deg,
+        rgba(255, 183, 183, 1) 0%,
+        rgba(214, 153, 255, 1) 100%
+    );
+}
+
+.box-welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    width: 500px;
+    height: 700px;
+}
+
+.logo-welcome {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.title-welcome {
+    font-size: 30px;
+    color: var(--primary);
+    font-weight: 500;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.content-welcome {
+    text-align: center;
+    line-height: 30px;
+    max-width: 380px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.credits-welcome {
+    margin-bottom: 30px;
+    font-family: "Poppins";
+    font-weight: 300;
+}

@@ -1,0 +1,15 @@
+:root {
+    --primary: #dc2281;
+    --primary-dark: #c51771;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    background-color: #f4f4f4;
+}
+
+.spacer {
+    flex-grow: 1;
+}
